@@ -1,0 +1,744 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #EFF1F2;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.flex {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: -16px;
+  left: 0px;
+  background-color: #5A5551;
+  z-index: 1000;
+}
+
+ul {
+  margin-left: -20px;
+}
+
+
+li {
+  color: white;
+  display: inline-block;
+  padding-right: 20px;
+  padding-top: 8px;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 25px;
+}
+
+li a {
+  color: white;
+}
+
+.painel {
+  background-image: url(img/pizza.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  height: 550px;
+}
+
+.tit1 {
+  position: absolute;
+  width: 600px;
+  height: 100px;
+  font-size: 100px;
+  top: 130px;
+  left: 400px;
+  font-family: "Amatic SC", sans-serif;
+  color: white;
+}
+
+.horario {
+  position: absolute;
+  top: 480px;
+  font-family: "Amatic SC", sans-serif;
+  left: 20px;
+  color: white;
+  background-color: black;
+  width: 170px;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+
+.cardapio {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 1500px;
+  background-color: black;
+}
+
+.tit2 {
+  position: absolute;
+  left: 580px;
+  font-size: 80px;
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+  top: 50px;
+}
+
+.dropdown {
+  position: absolute;
+  left: 180px;
+  height: 80px;
+  border: 1px white solid;
+  background-color: black;
+  width: 330px;
+  top: 300px;
+
+}
+
+.piz {
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 30px;
+  margin-left: 150px;
+  position: absolute;
+  top: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 989px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  top: 80px;
+  height: 1055px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.flex1 {
+  display: flex;
+  height: 200px;
+  background-color: white;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.tit3 {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 40px;
+}
+
+.sub1 {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 35px;
+  color: #777E7E;
+  width: 700px;
+
+}
+
+.but1 {
+  background-color: #616161;
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 40px;
+  width: 140px;
+  border: none;
+  height: 60px;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+
+
+
+.dropdown1 {
+  position: absolute;
+  left: 329px;
+  height: 80px;
+  border: 1px white solid;
+  background-color: black;
+  width: 330px;
+  top: -1px;
+
+}
+
+.piz {
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 30px;
+  margin-left: 150px;
+  position: absolute;
+  top: 20px;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 989px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  top: 80px;
+  height: 1055px;
+  left: -329px;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+.dropdown2 {
+  position: absolute;
+  left: 329px;
+  height: 80px;
+  border: 1px white solid;
+  background-color: black;
+  width: 330px;
+  top: -1px;
+
+}
+
+.piz {
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 30px;
+  margin-left: 150px;
+  position: absolute;
+  top: 20px;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 989px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  top: 80px;
+  height: 1055px;
+  left: -660px;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+.sobre {
+  position: relative;
+  width: 100%;
+  height: 1100px;
+  background-color: #8B5F5B;
+  top: 1500px;
+  left: 0px;
+}
+
+.tit4 {
+  position: absolute;
+  left: 580px;
+  font-size: 80px;
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+  top: 50px;
+}
+
+.sub2 {
+  position: absolute;
+  left: 180px;
+  top: 270px;
+  font-family: "Amatic SC", sans-serif;
+  color: white;
+  width: 989px;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.text2 {
+  display: flex;
+  width: 989px;
+}
+
+
+.sub3 {
+  position: absolute;
+  left: 180px;
+  top: 400px;
+  font-family: "Amatic SC", sans-serif;
+  color: white;
+  width: 300px;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.sub4 {
+  position: absolute;
+  left: 180px;
+  top: 450px;
+  font-family: "Amatic SC", sans-serif;
+  color: white;
+  width: 300px;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.img3 {
+  position: absolute;
+  width: 200px;
+  height: 90px;
+  left: 1000px;
+  top: 430px;
+  border: 0.5px solid white;
+  border-radius: 50%;
+}
+
+.img4 {
+  position: absolute;
+  top: 550px;
+  left: 180px;
+  width: 989px;
+  height: 550px;
+}
+
+.horarios {
+  position: relative;
+  top: 1500px;
+  display: flex;
+  background-color: #8B5F5B;
+  height: 350px;
+}
+
+
+.tit5 {
+  position: absolute;
+  left: 180px;
+  font-size: 40px;
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+  top: -10px;
+}
+
+.text5 {
+  position: absolute;
+  left: 180px;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 25px;
+  top: 100px;
+  color: white;
+  width: 400px;
+}
+
+.text6 {
+  position: absolute;
+  left: 670px;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 25px;
+  top: 100px;
+  color: white;
+  width: 400px;
+}
+
+.img5 {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  top: 350px;
+}
+
+.contato {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  background-color: #6C7A81;
+  top: 2180px;
+}
+
+.tit6 {
+  position: absolute;
+  left: 580px;
+  font-size: 70px;
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+  top: -10px;
+}
+
+.sub7 {
+  position: absolute;
+  top: 180px;
+  left: 180px;
+  margin-bottom: 40px;
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 25px;
+}
+
+.sub8 {
+  position: absolute;
+  top: 250px;
+  left: 180px;
+  margin-bottom: 40px;
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 25px;
+}
+
+.sub9 {
+  position: absolute;
+  top: 340px;
+  left: 180px;
+  margin-bottom: 40px;
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 40px;
+}
+
+span {
+  background-color: black;
+  width: 100px;
+  height: 60px;
+}
+
+form {
+  position: absolute;
+  top: 480px;
+  left: 180px;
+  width: 989px;
+  height: 520px;
+}
+
+input {
+  width: 989px;
+  height: 70px;
+  margin-bottom: 25px;
+  font-size: 23px;
+  font-family: "Amatic SC", sans-serif;
+
+}
+
+.but2 {
+  width: 989px;
+  height: 55px;
+  margin-bottom: 25px;
+  font-size: 23px;
+  font-family: "Amatic SC", sans-serif;
+
+}
+
+@media(max-width: 450px) {
+  .flex {
+    width: 450px;
+  }
+
+  .painel {
+    width: 450px;
+    position: relative;
+    top: 0px;
+    height: 500px;
+  }
+
+  .tit1 {
+    height: 100px;
+    font-size: 60px;
+    top: 180px;
+    left: 50px;
+    width: 400px;
+
+  }
+
+  .horario {
+    top: 430px;
+    font-family: "Amatic SC", sans-serif;
+    left: 20px;
+    color: white;
+    background-color: black;
+    width: 170px;
+    font-size: 25px;
+    padding-left: 10px;
+  }
+
+  .tit2 {
+    position: absolute;
+    left: 150px;
+    font-size: 60px;
+    color: white;
+    font-family: "Amatic SC", sans-serif;
+    top: 50px;
+  }
+
+  .dropdown {
+    position: absolute;
+    left: 5px;
+    height: 40px;
+    border: 1px white solid;
+    background-color: black;
+    width: 147px;
+    top: 300px;
+
+  }
+
+  .piz {
+    color: white;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+    position: absolute;
+    top: 0px;
+    height: 35px;
+    width: 50px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 440px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    top: 40px;
+    height: 1055px;
+  }
+
+  .flex1 {
+    display: flex;
+    height: 200px;
+    background-color: white;
+    border-bottom: 1px solid #EEEEEE;
+    width: 400px;
+  }
+
+  .tit3 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30px;
+  }
+
+  .sub1 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30px;
+    color: #777E7E;
+    width: 300px;
+
+  }
+
+  .but1 {
+    background-color: #616161;
+    color: white;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30px;
+    width: 100px;
+    border: none;
+    height: 40px;
+    margin-top: 60px;
+    border-radius: 10px;
+  }
+
+
+  .dropdown1 {
+    position: absolute;
+    left: 146px;
+    height: 40px;
+    border: 1px white solid;
+    background-color: black;
+    width: 147px;
+    top: -1px;
+
+  }
+
+
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 440px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    top: 40px;
+    height: 1055px;
+    left: -148px;
+  }
+
+  .dropdown2 {
+    position: absolute;
+    left: 146px;
+    height: 40px;
+    border: 1px white solid;
+    background-color: black;
+    width: 147px;
+    top: -1px;
+
+  }
+
+
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 430px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    top: 40px;
+    height: 1055px;
+    left: -290px;
+  }
+
+  .sobre {
+    position: relative;
+    width: 450px;
+    height: 1100px;
+    top: 1500px;
+    left: 0px;
+  }
+
+  .tit4 {
+    left: 180px;
+    font-size: 60px;
+
+  }
+
+  .sub2 {
+    left: 10px;
+    top: 200px;
+    width: 440px;
+    font-size: 25px;
+  }
+
+  .text2 {
+    display: flex;
+    width: 450px;
+  }
+
+
+  .sub3 {
+    position: absolute;
+    left: 10px;
+    top: 440px;
+    font-family: "Amatic SC", sans-serif;
+    color: white;
+    width: 250px;
+    font-size: 25px;
+    line-height: 1.5;
+
+  }
+
+  .sub4 {
+    position: absolute;
+    left: 10px;
+    top: 480px;
+    font-family: "Amatic SC", sans-serif;
+    color: white;
+    width: 300px;
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .img3 {
+    position: absolute;
+    width: 100px;
+    left: 340px;
+    top: 450px;
+
+  }
+
+  .img4 {
+    position: absolute;
+    width: 450px;
+    left: 0px;
+    height: 400px;
+  }
+
+  .horarios {
+    top: 1200px;
+  }
+
+
+  .tit5 {
+    position: absolute;
+    left: 70px;
+    width: 350px;
+    font-size: 40px;
+  }
+
+  .text5 {
+    left: 10px;
+    font-size: 23px;
+    width: 220px;
+  }
+
+  .text6 {
+
+    left: 250px;
+
+    font-size: 23px;
+    top: 100px;
+    color: white;
+    width: 200px;
+  }
+
+  .img5{position: absolute;
+    width: 450px;
+    left: 0px;
+    height: 400px;
+   }
+
+   .contato {
+    position: relative;
+    width: 450px;
+    height: 1000px;
+    top: 1600px;
+  }
+  
+  .tit6 {
+    left: 140px;
+  }
+  
+  .sub7 {
+    left: 10px;
+  }
+  
+  .sub8 {
+    left: 10px;
+  }
+  
+  .sub9 {
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    margin-bottom: 40px;
+    color: white;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 35px;
+  }
+  form {
+    position: absolute;
+    top: 540px;
+    left: 10px;
+    width: 400px;
+    height: 420px;
+  }
+  
+  input {
+    width: 420px;
+   
+  }
+  
+  .but2 {
+    width: 420px;
+    height: 55px;
+    margin-bottom: 25px;
+    font-size: 23px;
+    font-family: "Amatic SC", sans-serif;
+  
+  }
+}
